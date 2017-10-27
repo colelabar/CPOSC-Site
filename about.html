@@ -12,16 +12,22 @@
 
 <body>
   <section class="hero">
-      <header> <a>CENTRAL PENNSYLVANIA OPEN SOURCE CONFERENCE</a>
-          <nav></nav>
+      <header class="header">
+        <a href="index.html">CENTRAL PENNSYLVANIA OPEN SOURCE CONFERENCE</a>
+          <nav class="nav">
+            <a href="about.html">ABOUT</a>
+            <a href="speaker.html">SESSIONS</a>
+            <a href="sponsor.html">BECOME A SPONSOR</a>
+            <a href="tickets.html">TICKETS</a>
+          </nav>
       </header>
       <!-- The section below the header is the white dividing line, and the Div around the paragraph
   is the hero section. The div below the paragraph is the smaller white line, within the hero -->
-      <div></div>
+      <div class="divider-white"></div>
       <div>
           <p>The Central Pennsylvania Open Source Conference (CPOSC) is a one-day technical conference about all things open source.</p>
       </div>
-      <div></div>
+      <div class="divider-white"></div>
   </section>
 <!-- This div serves as the button to buy tickets with, and will be adjusted with connectivity and link formatting at a later date -->
   <section class="white-background">
@@ -31,7 +37,7 @@
       </div>
       <!-- This div is used for buying tickets, with link -->
       <div class="ticket-button">
-        <a></a>
+        <a href="">BUY TICKETS</a>
       </div>
     </div>
 <!-- This section serves as the description about the conference -->
@@ -55,7 +61,7 @@
     </p>
     <p>With its beautiful glass facade and welcoming presence on Prince Street, The Ware Center provides the Lancaster community with state-of-the-art facilities for a wide variety of performance, learning and cultural events.
     </p>
-    <img src=""></img>
+    <img src="">
     <!-- Placed the location and address in a seperate div to allow easier position of the block itself -->
     <div>
       <h3>Location</h3>
@@ -71,39 +77,48 @@
     <div>
       <!-- These divs are for the form fields -->
       <div>
-        <h3></h3>
+        <h3>Name:</h3>
+        <form class="form-field">
+        </form>
       </div>
       <div>
-        <h3></h3>
+        <h3>Email:</h3>
+        <form class="form-field">
+        </form>
       </div>
       <div>
-        <h3></h3>
+        <h3>Phone:</h3>
+        <form class="form-field">
+        </form>
       </div>
       <div>
-        <h3></h3>
+        <h3>Message:</h3>
+        <form class="form-field">
+        </form>
       </div>
       <div>
         <div class="main-button">
+          <a href="">SUBMIT</a>
         </div>
       </div>
     </div>
   </section>
-  <!-- This section serves as a location for all of the conference addresses and locations -->
+  <!-- This section serves as a location for all of the conference addresses and locations, as well as incorportating the map to keep them together for positioning. -->
   <section class="gold-background">
       <div>
           <h2>CONFERENCE LOCATIONS</h2>
-          <div>
+          <div class="loc-con">
               <h3>The Ware Center</h3>
               <p>at Millersville University</p>
               <p>42 N. Prince Street,</p>
               <p>Lancaster, PA 17603</p>
           </div>
-          <div>
+          <div class="loc-con">
               <h3>Prince St. Parking Garage</h3>
               <p>111 N. Prince Street,</p>
               <p>Lancaster, PA 17603</p>
           </div>
-          <div>
+          <div class="loc-con">
               <h3>Tellus360</h3>
               <p>24 E. King Street,</p>
               <p>Lancaster, PA 17602</p>
@@ -115,10 +130,13 @@
   <footer class="footer">
       <div>
           <h3>Code of Conduct</h3>
-          <p>CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found on our About page, under <a href="">Code of Conduct</a> </div>
+          <p>CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found on our About page, under <a href="http://cposc.org/code-of-conduct/">Code of Conduct</a>
+          </p>
+          </div>
       <div>
-          <h3>Connect with CPOSC</h3>
-          <h3>#CPOSC2017</h3> </div>
+          <p>Connect with CPOSC</p>
+          <h3>#CPOSC2017</h3>
+      </div>
   </footer>
 </body>
 
