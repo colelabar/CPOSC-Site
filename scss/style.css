@@ -181,4 +181,22 @@ table {
   font-size: 21px;
   font-family: "Lora", Arial, sans-serif; }
 
+.gold-background {
+  height: auto;
+  width: 100%;
+  background-color: #ffae00;
+  color: black; }
+  .gold-background .mont21 {
+    padding: 75px 143px 20px 20px;
+    line-height: 1.5; }
+  .gold-background .loc-con {
+    padding: 1em;
+    line-height: 1.5; }
+    .gold-background .loc-con h3 {
+      font-weight: bold; }
+
+.footer {
+  background-color: #313131;
+  color: #ebebeb; }
+
 /*# sourceMappingURL=style.css.map */
