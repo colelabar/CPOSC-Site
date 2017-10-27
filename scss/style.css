@@ -126,12 +126,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.herohead {
+.herohead, .herohome {
   font-family: "Lora", Arial, sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #ffae00;
   letter-spacing: 1.2; }
+
+.herohome {
+  font-size: 32px; }
 
 .mont13 {
   font-size: 13px;

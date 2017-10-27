@@ -5,6 +5,10 @@
     color: $yellow;
     letter-spacing: 1.2;
 }
+.herohome {
+    @extend .herohead;
+    font-size: 32px;
+}
 .mont13 {
     font-size: 13px;
     font-family: $mont;
