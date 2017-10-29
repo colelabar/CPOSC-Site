@@ -20,8 +20,8 @@
         <div></div>
         <div>
             <p class="herohome">Into the Great Wide Open (Source)</p>
+            <div class="white-line"></div>
         </div>
-        <div></div>
     </section>
     <!-- This next section below is the block of content with the countdown timer and buying tickets portion. -->
     <!-- JS Counter -->
@@ -36,7 +36,7 @@
         <div>
             <h1 class="mont24">2017 TICKETS ARE NOW AVAILABLE</h1> </div>
         <!-- This div is used for buying tickets, with link -->
-        <div class="ticket-button"> <a></a> </div>
+        <div class="ticket-button"> <a href="https://www.eventbrite.com/e/central-pa-open-source-conference-tickets-37584374877">BUY TICKETS</a> </div>
     </section>
     <section class="white-background">
         <h2 class="lora21">The Central PA Open Source Confrence (CPOSC) is a one-day technical conference for open source users and developers.</h2>
@@ -45,15 +45,15 @@
     <!-- This next section below is the grey portion with the three
     bold headings -->
     <section class="gray-background">
-        <div>
+        <div class="why-cp">
             <h3 class="lora18">Why CPOSC?</h3>
             <p class="lora16">Technology is evolving with unprecedented speed, which means it's more important than ever for those on the front lines of tech to gather, converse &amp; share their experiences. CPOSC offers technologists passionate about open source technologies that very opportunity through presentations, panel discussions, lightning talks and more.</p>
         </div>
-        <div>
+        <div class="why-lanc">
             <h3 class="lora18">Why Downtown Lancaster?</h3>
             <p class="lora16">As Downtown Lancaster's arts, music, drinking &amp; dining scenes have garnered national recognition over the past decade, we firmly believe that the Lancaster tech scene is in the midst of its own big break out. By moving downtown beginning in 2016, we wanted CPOSC to be at the center of this impending tech explosion. As a bonus: it's an easy walk from the Ware Center to the CPOSC After Party!</p>
         </div>
-        <div>
+        <div class="what">
             <h3 class="lora18">What to expect:</h3>
             <p class="lora16">Since the start, CPOSC has featured some of the most experienced technologists in the industry presenting on a variety of open source topics, from introductions to emerging technologies to deep dives into coding languages, as well as high-level case studies recounting what worked, what didn't work, and the lessons learned along the way.</p>
         </div>
@@ -61,65 +61,44 @@
     <!-- This section will contain the conference sponsors, their logos and their contribution tiers. They will be further broken
     up into a div containing main heading and button, as well as the
     tiers, names and so on -->
-    <section class="white-background">
+    <section class="white-background2">
         <div>
-            <h2 lora="lora21">Conference Sponsors</h2>
+            <h3 class="lora21">Conference Sponsors</h3>
             <p class="lora17">Thank you for supporting open source in Central Pennsylvania!</p>
-            <div class="main-button">
-                <p>button goes here</p>
-            </div>
+            <div class="main-button"> <a class="mont18" href="http://cposc.org/sponsor/" target="_blank">BECOME A SPONSOR</a> </div>
         </div>
+        <!-- Below for the sponsors and their images they were each given a class based upon their actual names. This way they could be positioned within their own divs. -->
         <div>
-            <h2 class="mont21">PLATINUM SPONSORS</h2>
-            <div>
-                <p>Seisan logo</p>
-            </div>
+            <h1 class="mont21">PLATINUM SPONSORS</h1>
+            <div> <img class="seisan" src="images/seisan.png"></div>
             <h2 class="mont21">GOLD SPONSORS</h2>
-            <div>
-                <p>printed solid logo</p>
-            </div>
-            <div>
-                <p>shift lab logo</p>
-            </div>
-            <div>
-                <p>linode logo</p>
-            </div>
+            <div> <img class="printed-solid" src="images/printedsolid.png"> <img class="simple" src="images/simple.png"> </div>
+            <div> <img class="linode" src="images/linode.png"> </div>
             <h2 class="mont21">SILVER SPONSORS</h2>
-            <div>
-                <p>lulzbot logo</p>
-            </div>
-            <div>
-                <p>tapestry tech logo</p>
-            </div>
-            <div>
-                <p>elastic logo</p>
-            </div>
+            <div> <img class="lulzbot" src="images/lulzbot.jpg"> <img class="tapestry" src="images/tapestry.png"> </div>
+            <div> <img class="elastic" src="images/elastic.png"> </div>
             <h2 class="mont21">BRONZE SPONSORS</h2>
-            <div>
-                <p>lullabot logo</p>
-            </div>
+            <div> <img class="lullabot" src="images/lullabot.png"> </div>
             <h2 class="mont21">HOST SPONSORS</h2>
-            <div>
-                <p>millersville uni logo</p>
-            </div>
+            <div> <img class="m-logo" src="images/millersville.jpg"> </div>
         </div>
     </section>
     <!-- The next section will contain the conference locations split into multiple divs, as well as the google map api in its own div -->
     <section class="gold-background">
         <div>
             <h2 class="mont21">CONFERENCE LOCATIONS</h2>
-            <div>
+            <div class="loc-con">
                 <h3 class="lora18">The Ware Center</h3>
                 <p class="lora18">at Millersville University</p>
                 <p class="lora16">42 N. Prince Street,</p>
                 <p class="lora16">Lancaster, PA 17603</p>
             </div>
-            <div>
+            <div class="loc-con">
                 <h3 class="lora18">Prince St. Parking Garage</h3>
                 <p class="lora16">111 N. Prince Street,</p>
                 <p class="lora16">Lancaster, PA 17603</p>
             </div>
-            <div>
+            <div class="loc-con">
                 <h3 class="lora18">Tellus360</h3>
                 <p class="lora16">24 E. King Street,</p>
                 <p class="lora16">Lancaster, PA 17602</p>
@@ -129,12 +108,16 @@
         <div></div>
     </section>
     <footer class="footer">
-        <div>
+        <div class="code">
             <h3 class="mont18">Code of Conduct</h3>
-            <p class="lora15">CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found on our About page, under <a href="">Code of Conduct</a> </div>
-        <div>
-            <h3 class="mont18">Connect with CPOSC</h3>
-            <h3 class="mont18">#CPOSC2017</h3> </div>
+            <p class="lora15">CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found on our About page, under <a href="http://cposc.org/code-of-conduct/">Code of Conduct</a> </p>
+        </div>
+        <div class="connect">
+            <div>
+                <h3 class="mont18">Connect with CPOSC</h3> </div>
+            <div class="hashtag">
+                <h3 class="mont18">#CPOSC2017</h3> </div>
+        </div>
     </footer>
 </body>
 
