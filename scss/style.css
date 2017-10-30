@@ -189,9 +189,9 @@ table {
   width: 100%; }
   .hero header {
     padding: 30px 0 25px 14px; }
-  .hero div {
+  .hero .line-below {
     width: 100%;
-    height: 3px;
+    height: 5px;
     background-color: white; }
   .hero a {
     color: #f5f5f5;
@@ -202,86 +202,100 @@ table {
   .hero p {
     padding: 72px 62px 0 20px; }
   .hero .white-line {
-    height: 3px;
+    height: 5px;
     width: 108px;
     margin-left: 20px;
-    margin-top: 30px; }
+    margin-top: 30px;
+    background-color: white; }
+
+.counter-container {
+  width: 280px;
+  height: 178px;
+  background-color: #ffae00;
+  margin: 0 auto;
+  position: relative;
+  top: -45px;
+  z-index: 1; }
+  .counter-container .counter {
+    padding: .5em; }
+    .counter-container .counter .count-contain {
+      display: flex;
+      justify-content: space-around; }
+      .counter-container .counter .count-contain .count-box {
+        background-color: #f5f5f5;
+        height: 83px;
+        width: 31%;
+        display: inline-block; }
+    .counter-container .counter .day {
+      font-weight: bold;
+      color: #f5f5f5;
+      text-align: center;
+      padding: 10px 0 15px 0; }
+    .counter-container .counter .date {
+      color: #f5f5f5;
+      text-align: center; }
+
+.ticket-container {
+  background-color: #DF8D21;
+  height: 200px;
+  width: 281px;
+  margin: 0 auto; }
+  .ticket-container h1 {
+    color: #f5f5f5;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0 35px 0;
+    letter-spacing: 1.2px; }
+  .ticket-container .ticket-button {
+    background-color: #f5f5f5;
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 5%; }
+    .ticket-container .ticket-button p {
+      color: #ffae00;
+      font-weight: bold;
+      letter-spacing: .9px;
+      padding: 0 auto; }
 
 .white-background {
   height: auto;
-  width: 100%; }
+  width: 92%;
+  padding: 1.35em; }
   .white-background h2 {
-    padding: 39px 31px 0 20px;
     font-weight: bold;
     line-height: 1.52;
     letter-spacing: 1px; }
   .white-background p {
-    padding: 25px 27px 41px 18px;
     line-height: 1.4;
     letter-spacing: 0.9px; }
 
 .gray-background {
   height: auto;
-  width: 100%;
+  width: 92%;
+  padding: 1.35em;
   background-color: #ebebeb;
   color: #101010; }
-  .gray-background .why-cp, .gray-background .why-lanc, .gray-background .what {
-    padding: 60px 19px 0 25px; }
-    .gray-background .why-cp h3, .gray-background .why-lanc h3, .gray-background .what h3 {
-      font-weight: bold;
-      letter-spacing: 0.9px;
-      line-height: 24px; }
-    .gray-background .why-cp p, .gray-background .why-lanc p, .gray-background .what p {
-      letter-spacing: 0.8px;
-      line-height: 24px; }
-  .gray-background .what {
-    padding: 60px 19px 65px 25px; }
-
-.white-background2 {
-  height: auto;
-  width: 100%; }
-  .white-background2 h1 {
-    padding: 60px 0 0 20px;
-    color: #ffae00; }
-  .white-background2 h2 {
-    color: #ffae00;
-    padding-left: 20px; }
-  .white-background2 h3 {
-    padding: 64px 68px 15px 20px;
+  .gray-background h3 {
     font-weight: bold;
-    color: #101010; }
-  .white-background2 p {
-    line-height: 1.4;
     letter-spacing: 0.9px;
-    padding: 0 28px 21px 20px;
-    color: #101010; }
-  .white-background2 .main-button {
-    height: 55px;
-    width: 281px;
-    background-color: #ffae00;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    margin-left: 20px;
-    margin-right: 19px; }
-    .white-background2 .main-button a {
-      font-size: 18px;
-      font-weight: bold;
-      line-height: 1.73;
-      text-decoration: none;
-      letter-spacing: 0.9px;
-      color: #f5f5f5;
-      padding: 20px 0 0 35px; }
+    line-height: 24px;
+    padding-top: 30px; }
+  .gray-background p {
+    letter-spacing: 0.8px;
+    line-height: 24px; }
+  .gray-background .spacer {
+    padding-bottom: 40px; }
 
 .seisan {
   width: 200px;
-  height: 80px;
-  padding: 22px 99px 80px 21px; }
+  height: 80px; }
 
 .printed-solid {
   width: 151px;
   height: 93px;
-  display: inline-block;
-  padding: 20px 36px 27px 20px; }
+  display: inline-block; }
 
 .simple {
   width: 93px;
@@ -291,14 +305,12 @@ table {
 
 .linode {
   width: 211px;
-  height: 83px;
-  padding: 0 89px 63px 20px; }
+  height: 83px; }
 
 .lulzbot {
   width: 110px;
   height: 113px;
-  display: inline-block;
-  padding: 25px 50px 24px 15px; }
+  display: inline-block; }
 
 .tapestry {
   width: 80px;
@@ -308,18 +320,15 @@ table {
 
 .elastic {
   width: 179px;
-  height: 62px;
-  padding: 0 89px 63px 20px; }
+  height: 62px; }
 
 .lullabot {
   width: 87px;
-  height: 94px;
-  padding: 25px 212px 40px 21px; }
+  height: 94px; }
 
 .m-logo {
   height: 71px;
-  width: 225px;
-  padding: 16px 90px 59px 5px; }
+  width: 225px; }
 
 .gold-background {
   height: auto;
