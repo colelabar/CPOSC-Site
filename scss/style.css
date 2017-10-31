@@ -235,27 +235,27 @@ table {
       color: #f5f5f5;
       text-align: center; }
 
-.ticket-container {
+.ticket-container, .sponsor-page .sponsor-ticket {
   background-color: #DF8D21;
   height: 200px;
   width: 281px;
   margin: 0 auto;
   position: relative;
   top: -32px; }
-  .ticket-container h1 {
+  .ticket-container h1, .sponsor-page .sponsor-ticket h1 {
     color: #f5f5f5;
     text-align: center;
     font-weight: bold;
     padding: 40px 0 35px 0;
     letter-spacing: 1.2px; }
-  .ticket-container .ticket-button {
+  .ticket-container .ticket-button, .sponsor-page .sponsor-ticket .ticket-button {
     background-color: #f5f5f5;
     width: 250px;
     height: 60px;
     margin: 0 auto;
     text-align: center;
     margin: 0 5%; }
-    .ticket-container .ticket-button a {
+    .ticket-container .ticket-button a, .sponsor-page .sponsor-ticket .ticket-button a {
       color: #ffae00;
       font-weight: bold;
       letter-spacing: .9px;
@@ -265,7 +265,7 @@ table {
 .white-background {
   height: auto;
   width: 92%;
-  padding: 1.35em; }
+  padding: .75em; }
   .white-background h1 {
     color: #ffae00;
     font-weight: medium;
@@ -294,7 +294,7 @@ table {
 .gray-background {
   height: auto;
   width: 92%;
-  padding: 1.35em;
+  padding: .75em;
   background-color: #ebebeb;
   color: #101010; }
   .gray-background h3 {
@@ -358,6 +358,33 @@ table {
   left: -15px;
   top: 15px;
   margin-bottom: 35px; }
+
+.sponsor-page {
+  width: 100%;
+  height: auto;
+  color: #313131; }
+  .sponsor-page .sponsor-ticket {
+    top: 30px;
+    margin-bottom: 80px; }
+  .sponsor-page .white-background .mont21 {
+    font-weight: 500;
+    margin: 30px auto 20px;
+    letter-spacing: 1px; }
+  .sponsor-page .white-background p {
+    margin-bottom: 25px; }
+    .sponsor-page .white-background p strong {
+      font-weight: bold; }
+  .sponsor-page .gray-background {
+    width: auto; }
+    .sponsor-page .gray-background .mont24 {
+      font-weight: medium;
+      padding-bottom: 20px; }
+    .sponsor-page .gray-background ul {
+      list-style-type: disc;
+      list-style-position: inside;
+      margin: 10px auto 10px; }
+      .sponsor-page .gray-background ul li {
+        margin: 15px auto 15px; }
 
 .gold-background {
   height: auto;
