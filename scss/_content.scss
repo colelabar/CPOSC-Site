@@ -35,25 +35,28 @@
     height: 200px;
     width: 281px;
     margin: 0 auto;
+    position: relative;
+    top: -32px;
     h1 {
         color: $white;
         text-align: center;
         font-weight: bold;
-        padding: 20px 0 35px 0;
+        padding: 40px 0 35px 0;
         letter-spacing: 1.2px;
     }
     .ticket-button {
         background-color: $white;
         width: 250px;
-        height: 40px;
+        height: 60px;
         margin: 0 auto;
         text-align: center;
         margin: 0 5%;
-        p {
+        a {
             color: $yellow;
             font-weight: bold;
             letter-spacing: .9px;
             padding: 0 auto;
+            text-decoration: none;
         }
     }
 }
@@ -61,14 +64,34 @@
     height: auto;
     width: 92%;
     padding: 1.35em;
-    h2 {
+    h1 {
+        color: $yellow;
+        font-weight: medium;
+        letter-spacing: 1px;
+    }
+    h3 {
         font-weight: bold;
         line-height: 1.52;
         letter-spacing: 1px;
+        margin-bottom: 15px;
     }
     p {
         line-height: 1.4;
         letter-spacing: 0.9px;
+    }
+    .main-button {
+        background-color: $yellow;
+        width: 250px;
+        height: 60px;
+        margin: 15px auto 65px;
+        text-align: center;
+        a {
+            color: $white;
+            font-weight: bold;
+            letter-spacing: .9px;
+            padding: 0 auto;
+            text-decoration: none;
+        }
     }
 }
 .gray-background {
