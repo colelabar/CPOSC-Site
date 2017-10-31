@@ -432,11 +432,18 @@ table {
 .about-page .white-background .form-field {
   height: 50px;
   width: 280px;
-  border: 1px solid black; }
+  border: 1px solid black;
+  margin-bottom: 10px; }
 .about-page .white-background .form-field-end {
   height: 200px;
   border: 1px solid black;
   width: 280px; }
+.about-page .white-background .button-container {
+  width: 100%;
+  margin: 0 0 0 60px; }
+  .about-page .white-background .button-container .main-button {
+    width: 150px;
+    display: block; }
 .about-page .gray-background h3 {
   margin-bottom: 20px; }
 .about-page .gray-background .lora16 {
@@ -447,6 +454,39 @@ table {
   margin-bottom: 30px; }
   .about-page .gray-background .about-location .lora16 {
     margin-bottom: 0; }
+.about-page .img {
+  width: 100%;
+  height: auto; }
+
+.gold-background {
+  height: auto;
+  width: 100%;
+  background-color: #ffae00;
+  color: black; }
+  .gold-background .mont21 {
+    padding: 75px 143px 20px 20px;
+    line-height: 1.5;
+    font-weight: bolder; }
+  .gold-background .loc-con {
+    padding: 1em;
+    line-height: 1.5; }
+    .gold-background .loc-con h3 {
+      font-weight: bold; }
+
+.footer {
+  background-color: #313131;
+  color: #ebebeb; }
+  .footer .code h3 {
+    padding: 56px 149px 22px 20px; }
+  .footer .code p {
+    padding: 0 20px 0 21px;
+    line-height: 1.7; }
+    .footer .code p a {
+      color: #ebebeb; }
+  .footer .connect h3 {
+    padding: 80px 110px 0 20px; }
+  .footer .hashtag h3 {
+    padding: 82px 165px 105px 20px; }
 
 .gold-background {
   height: auto;

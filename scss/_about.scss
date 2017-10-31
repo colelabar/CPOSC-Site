@@ -29,11 +29,20 @@
       height: 50px;
       width: 280px;
       border: 1px solid black;
+      margin-bottom: 10px;
     }
     .form-field-end {
       height: 200px;
       border: 1px solid black;
       width: 280px;
+    }
+    .button-container {
+      width: 100%;
+      margin: 0 0 0 60px;
+      .main-button {
+        width: 150px;
+        display: block;
+      }
     }
   }
   .gray-background {
@@ -52,5 +61,9 @@
         margin-bottom: 0;
       }
     }
+  }
+  .img {
+    width: 100%;
+    height: auto;
   }
 }
