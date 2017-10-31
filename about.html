@@ -38,7 +38,7 @@
         <button class="ticket-button"> <a class="mont18" href="https://www.eventbrite.com/e/central-pa-open-source-conference-tickets-37584374877" target="_blank">BUY TICKETS</a> </button>
     </section>
 <!-- This section serves as the description about the conference -->
-    <div class="white-background">
+    <div>
       <h3 class="mont24">About the Conference</h3>
       <p class="lora16">Founded in 2008, the conference has long provided a time and place for the community of technologists to converge, converse and connect. As the technology footprint in Central PA continues to grow, so too grows the need for information and experiences to be shared and discussed among developers and users alike.
       </p>
@@ -58,7 +58,7 @@
     </p>
     <p class="lora16">With its beautiful glass facade and welcoming presence on Prince Street, The Ware Center provides the Lancaster community with state-of-the-art facilities for a wide variety of performance, learning and cultural events.
     </p>
-    <img src="">
+    <img class="img" src="images/warecenter.jpg">
     <!-- Placed the location and address in a seperate div to allow easier position of the block itself -->
     <div class="about-location">
       <h3 class="lora21">Location</h3>
@@ -74,65 +74,68 @@
     <div>
       <!-- These divs are for the form fields -->
       <div>
-        <h3>Name:</h3>
+        <h3 class="lora18">Name:</h3>
         <form class="form-field">
         </form>
       </div>
       <div>
-        <h3>Email:</h3>
+        <h3 class="lora18">Email:</h3>
         <form class="form-field">
         </form>
       </div>
       <div>
-        <h3>Phone:</h3>
+        <h3 class="lora18">Phone:</h3>
         <form class="form-field">
         </form>
       </div>
       <div>
-        <h3>Message:</h3>
+        <h3 class="lora18">Message:</h3>
         <form class="form-field-end">
         </form>
       </div>
-      <div>
-        <div class="main-button">
-          <a href="">SUBMIT</a>
-        </div>
+      <div class="button-container">
+            <button class="main-button"> <a class="mont18" href="http://cposc.org/sponsor/" target="_blank">Submit</a>
+            </button>
       </div>
     </div>
   </section>
   <!-- This section serves as a location for all of the conference addresses and locations, as well as incorportating the map to keep them together for positioning. -->
   <section class="gold-background">
       <div>
-          <h2>CONFERENCE LOCATIONS</h2>
+          <h2 class="mont21">CONFERENCE LOCATIONS</h2>
           <div class="loc-con">
-              <h3>The Ware Center</h3>
-              <p>at Millersville University</p>
-              <p>42 N. Prince Street,</p>
-              <p>Lancaster, PA 17603</p>
+              <h3 class="lora18">The Ware Center</h3>
+              <p class="lora18">at Millersville University</p>
+              <p class="lora16">42 N. Prince Street,</p>
+              <p class="lora16">Lancaster, PA 17603</p>
           </div>
           <div class="loc-con">
-              <h3>Prince St. Parking Garage</h3>
-              <p>111 N. Prince Street,</p>
-              <p>Lancaster, PA 17603</p>
+              <h3 class="lora18">Prince St. Parking Garage</h3>
+              <p class="lora16">111 N. Prince Street,</p>
+              <p class="lora16">Lancaster, PA 17603</p>
           </div>
           <div class="loc-con">
-              <h3>Tellus360</h3>
-              <p>24 E. King Street,</p>
-              <p>Lancaster, PA 17602</p>
+              <h3 class="lora18">Tellus360</h3>
+              <p class="lora16">24 E. King Street,</p>
+              <p class="lora16">Lancaster, PA 17602</p>
           </div>
       </div>
+      <!-- this div below is for the map -->
+      <div></div>
+  </section>
       <!-- this div below is for the map. Google Maps APIs will be embedded externally to reflect the 3 locations once I can figure out how to do it -->
       <div class="map"></div>
   </section>
   <footer class="footer">
-      <div>
-          <h3>Code of Conduct</h3>
-          <p>CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found on our About page, under <a href="http://cposc.org/code-of-conduct/">Code of Conduct</a>
-          </p>
-          </div>
-      <div>
-          <p>Connect with CPOSC</p>
-          <h3>#CPOSC2017</h3>
+      <div class="code">
+          <h3 class="mont18">Code of Conduct</h3>
+          <p class="lora15">CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found on our About page, under <a href="http://cposc.org/code-of-conduct/">Code of Conduct</a> </p>
+      </div>
+      <div class="connect">
+          <div>
+              <h3 class="mont18">Connect with CPOSC</h3> </div>
+          <div class="hashtag">
+              <h3 class="mont18">#CPOSC2017</h3> </div>
       </div>
   </footer>
 </body>
