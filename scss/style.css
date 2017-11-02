@@ -268,7 +268,7 @@ table {
 
 .white-background {
   height: auto;
-  width: 92%;
+  width: 100%;
   padding: .75em; }
   .white-background h1 {
     color: #ffae00;
@@ -297,7 +297,7 @@ table {
 
 .gray-background {
   height: auto;
-  width: 92%;
+  width: 100%;
   padding: .75em;
   background-color: #ebebeb;
   color: #101010; }
@@ -470,7 +470,11 @@ table {
     margin-bottom: 0; }
 .about-page .img {
   width: 100%;
-  height: auto; }
+  background: url("../images/warecenter.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 0; }
 
 .gold-background {
   height: auto;

@@ -64,6 +64,10 @@
   }
   .img {
     width: 100%;
-    height: auto;
+    background: url('../images/warecenter.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 0;
   }
 }
