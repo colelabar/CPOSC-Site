@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -471,36 +471,6 @@ table {
 .about-page .img {
   width: 100%;
   height: auto; }
-
-.gold-background {
-  height: auto;
-  width: 100%;
-  background-color: #ffae00;
-  color: black; }
-  .gold-background .mont21 {
-    padding: 75px 143px 20px 20px;
-    line-height: 1.5;
-    font-weight: bolder; }
-  .gold-background .loc-con {
-    padding: 1em;
-    line-height: 1.5; }
-    .gold-background .loc-con h3 {
-      font-weight: bold; }
-
-.footer {
-  background-color: #313131;
-  color: #ebebeb; }
-  .footer .code h3 {
-    padding: 56px 149px 22px 20px; }
-  .footer .code p {
-    padding: 0 20px 0 21px;
-    line-height: 1.7; }
-    .footer .code p a {
-      color: #ebebeb; }
-  .footer .connect h3 {
-    padding: 80px 110px 0 20px; }
-  .footer .hashtag h3 {
-    padding: 82px 165px 105px 20px; }
 
 .gold-background {
   height: auto;
