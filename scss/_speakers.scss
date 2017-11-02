@@ -1,6 +1,14 @@
 .speaker-page {
-    font-weight: bold;
-    line-height: 1.2;
-    letter-spacing: 1.2px;
-    text-align: left;
+    width: 100%;
+    height: auto;
+    color: $gunmetal;
+    .hero {
+        padding-bottom: 20px;
+    }
+    .speaker-ticket {
+        @extend .ticket-container;
+        left: -10px;
+        top: 10px;
+        margin-bottom: 40px;
+    }
 }
