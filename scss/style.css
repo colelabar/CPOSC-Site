@@ -371,6 +371,9 @@ table {
   width: 100%;
   height: auto;
   color: #313131; }
+  .sponsor-page .hero {
+    height: auto;
+    padding-bottom: 50px; }
   .sponsor-page .sponsor-ticket {
     top: 30px;
     margin-bottom: 80px; }

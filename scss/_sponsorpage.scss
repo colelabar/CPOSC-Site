@@ -2,6 +2,10 @@
     width: 100%;
     height: auto;
     color: $gunmetal;
+    .hero {
+        height: auto;
+        padding-bottom: 50px;
+    }
     .sponsor-ticket {
         @extend .ticket-container;
         top: 30px;
