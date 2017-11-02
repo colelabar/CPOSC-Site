@@ -181,11 +181,15 @@ table {
   font-size: 21px;
   font-family: "Lora", Arial, sans-serif; }
 
+.lora24 {
+  font-size: 24px;
+  font-family: "Lora", Arial, sans-serif; }
+
 .hero {
   background: url("../images/code-lines.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: auto;
   width: 100%; }
   .hero header {
     padding: 30px 0 25px 14px; }
@@ -388,7 +392,13 @@ table {
       list-style-position: inside;
       margin: 10px auto 10px; }
       .sponsor-page .gray-background ul li {
-        margin: 15px auto 15px; }
+        margin: 15px auto 15px;
+        line-height: 1.5; }
+  .sponsor-page .herohead, .sponsor-page .herohome {
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    text-align: left; }
 
 .ticket-page .hero .herohead, .ticket-page .hero .herohome {
   padding-top: 25px;
@@ -476,6 +486,42 @@ table {
     line-height: 1.5; }
     .gold-background .loc-con h3 {
       font-weight: bold; }
+
+.footer {
+  background-color: #313131;
+  color: #ebebeb; }
+  .footer .code h3 {
+    padding: 56px 149px 22px 20px; }
+  .footer .code p {
+    padding: 0 20px 0 21px;
+    line-height: 1.7; }
+    .footer .code p a {
+      color: #ebebeb; }
+  .footer .connect h3 {
+    padding: 80px 110px 0 20px; }
+  .footer .hashtag h3 {
+    padding: 82px 165px 105px 20px; }
+
+.gold-background {
+  height: auto;
+  width: 100%;
+  background-color: #ffae00;
+  color: black; }
+  .gold-background .mont21 {
+    padding: 75px 143px 20px 20px;
+    line-height: 1.5;
+    font-weight: bolder; }
+  .gold-background .loc-con {
+    padding: 1em;
+    line-height: 1.5; }
+    .gold-background .loc-con h3 {
+      font-weight: bold; }
+
+.speaker-page {
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 1.2px;
+  text-align: left; }
 
 .footer {
   background-color: #313131;
