@@ -268,7 +268,7 @@ table {
 
 .white-background {
   height: auto;
-  width: 100%;
+  width: 92%;
   padding: .75em; }
   .white-background h1 {
     color: #ffae00;
@@ -297,7 +297,7 @@ table {
 
 .gray-background {
   height: auto;
-  width: 100%;
+  width: 92%;
   padding: .75em;
   background-color: #ebebeb;
   color: #101010; }
@@ -472,12 +472,8 @@ table {
   .about-page .gray-background .about-location .lora16 {
     margin-bottom: 0; }
 .about-page .img {
-  width: 100%;
-  background: url("../images/warecenter.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 400px;
-  padding: 0; }
+  width: 98%;
+  height: auto; }
 
 .gold-background {
   height: auto;
