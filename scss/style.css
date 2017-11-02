@@ -312,6 +312,10 @@ table {
   .gray-background .spacer {
     padding-bottom: 40px; }
 
+.map {
+  height: auto;
+  width: 100%; }
+
 .seisan {
   width: 200px;
   height: 80px;
