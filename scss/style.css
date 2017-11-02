@@ -181,11 +181,15 @@ table {
   font-size: 21px;
   font-family: "Lora", Arial, sans-serif; }
 
+.lora24 {
+  font-size: 24px;
+  font-family: "Lora", Arial, sans-serif; }
+
 .hero {
   background: url("../images/code-lines.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: auto;
   width: 100%; }
   .hero header {
     padding: 30px 0 25px 14px; }
@@ -384,7 +388,13 @@ table {
       list-style-position: inside;
       margin: 10px auto 10px; }
       .sponsor-page .gray-background ul li {
-        margin: 15px auto 15px; }
+        margin: 15px auto 15px;
+        line-height: 1.5; }
+  .sponsor-page .herohead, .sponsor-page .herohome {
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    text-align: left; }
 
 .ticket-page .hero .herohead, .ticket-page .hero .herohome {
   padding-top: 25px;
@@ -462,6 +472,12 @@ table {
     line-height: 1.5; }
     .gold-background .loc-con h3 {
       font-weight: bold; }
+
+.speaker-page {
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 1.2px;
+  text-align: left; }
 
 .footer {
   background-color: #313131;
