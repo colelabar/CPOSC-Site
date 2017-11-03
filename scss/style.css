@@ -239,27 +239,27 @@ table {
       color: #f5f5f5;
       text-align: center; }
 
-.ticket-container, .sponsor-page .sponsor-ticket {
+.ticket-container, .sponsor-page .sponsor-ticket, .speaker-page .speaker-ticket {
   background-color: #DF8D21;
   height: 200px;
   width: 281px;
   margin: 0 auto;
   position: relative;
   top: -32px; }
-  .ticket-container h1, .sponsor-page .sponsor-ticket h1 {
+  .ticket-container h1, .sponsor-page .sponsor-ticket h1, .speaker-page .speaker-ticket h1 {
     color: #f5f5f5;
     text-align: center;
     font-weight: bold;
     padding: 40px 0 35px 0;
     letter-spacing: 1.2px; }
-  .ticket-container .ticket-button, .sponsor-page .sponsor-ticket .ticket-button {
+  .ticket-container .ticket-button, .sponsor-page .sponsor-ticket .ticket-button, .speaker-page .speaker-ticket .ticket-button {
     background-color: #f5f5f5;
     width: 250px;
     height: 60px;
     margin: 0 auto;
     text-align: center;
     margin: 0 5%; }
-    .ticket-container .ticket-button a, .sponsor-page .sponsor-ticket .ticket-button a {
+    .ticket-container .ticket-button a, .sponsor-page .sponsor-ticket .ticket-button a, .speaker-page .speaker-ticket .ticket-button a {
       color: #ffae00;
       font-weight: bold;
       letter-spacing: .9px;
@@ -440,7 +440,7 @@ table {
     padding-right: 50px;
     line-height: 1.5;
     letter-spacing: 1.2px; }
-.about-page .white-background .ticket-container h1, .about-page .white-background .sponsor-page .sponsor-ticket h1, .sponsor-page .about-page .white-background .sponsor-ticket h1 {
+.about-page .white-background .ticket-container h1, .about-page .white-background .sponsor-page .sponsor-ticket h1, .sponsor-page .about-page .white-background .sponsor-ticket h1, .about-page .white-background .speaker-page .speaker-ticket h1, .speaker-page .about-page .white-background .speaker-ticket h1 {
   color: #f5f5f5; }
 .about-page .white-background h3 {
   font-weight: 500; }
@@ -491,10 +491,15 @@ table {
       font-weight: bold; }
 
 .speaker-page {
-  font-weight: bold;
-  line-height: 1.2;
-  letter-spacing: 1.2px;
-  text-align: left; }
+  width: 100%;
+  height: auto;
+  color: #313131; }
+  .speaker-page .hero {
+    padding-bottom: 20px; }
+  .speaker-page .speaker-ticket {
+    left: -10px;
+    top: 10px;
+    margin-bottom: 40px; }
 
 .footer {
   background-color: #313131;
