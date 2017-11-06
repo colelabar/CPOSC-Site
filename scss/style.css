@@ -497,9 +497,25 @@ table {
   .speaker-page .hero {
     padding-bottom: 20px; }
   .speaker-page .speaker-ticket {
-    left: -10px;
+    left: -1px;
     top: 10px;
     margin-bottom: 40px; }
+  .speaker-page .white-background h1 {
+    margin: 0 auto 15px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #313131; }
+  .speaker-page .white-background h3 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 18px; }
+  .speaker-page .dropDown {
+    display: flex;
+    justify-content: space-between;
+    color: #ffae00; }
+    .speaker-page .dropDown .yellowArrow {
+      margin-top: 25px;
+      font-size: 40px; }
 
 .footer {
   background-color: #313131;
