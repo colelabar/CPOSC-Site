@@ -2,9 +2,9 @@
     width: 280px;
     height: 178px;
     background-color: $yellow;
-    margin: 0 auto;
+    margin: 0 auto 25px;
     position: relative;
-    top: -45px;
+    top: -25px;
     z-index: 1;
     .counter {
         padding: .5em;
@@ -116,6 +116,6 @@
 }
 
 .map {
-  height: 400px;
-  width: 100%;
+    height: 400px;
+    width: 100%;
 }
