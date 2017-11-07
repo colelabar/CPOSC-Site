@@ -191,7 +191,7 @@ table {
   background-repeat: no-repeat;
   height: auto;
   width: 100%;
-  padding: 40px; }
+  padding-bottom: 40px; }
   .hero header {
     padding: 30px 0 25px 14px; }
   .hero .line-below {
