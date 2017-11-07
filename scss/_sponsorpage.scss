@@ -40,10 +40,55 @@
             }
         }
     }
+    .table-section {
+      display: none;
+      .white-background {
+        display: flex;
+        margin-left: 5%;
+        padding-left: 0;
+        p {
+          width: 50%;
+          margin-right: 15%;
+        }
+      }
+      }
+      .sponsor-table {
+        width: 95%;
+        margin: 0 0 20px 5%;
+        .table-head {
+          width: 20%;
+          margin-right: 5px;
+        }
+        td {
+          width: 15%;
+          padding: 5px;
+          text-align: left;
+        }
+      }
+      .mod-white-background {
+        width:58%;
+        margin: 0 2% 100px 40%;
+        .mont24 {
+          margin-bottom: 20px;
+          line-height: 1.0;
+          letter-spacing: 1.2px;
+        }
+        .lora18 {
+          font-weight: bold;
+          margin: 10px 0;
+          line-height: 1.33;
+          letter-spacing: .9px;
+        }
+        .lora16 {
+          margin-bottom: 25px;
+          letter-spacing: .8px;
+          line-height: 1.5
+        }
+      }
     .herohead {
         font-weight: bold;
         line-height: 1.2;
         letter-spacing: 1.2px;
         text-align: left;
     }
-}
+  }
