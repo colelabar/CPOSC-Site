@@ -216,9 +216,9 @@ table {
   width: 280px;
   height: 178px;
   background-color: #ffae00;
-  margin: 0 auto;
+  margin: 0 auto 25px;
   position: relative;
-  top: -45px;
+  top: -25px;
   z-index: 1; }
   .counter-container .counter {
     padding: .5em; }
