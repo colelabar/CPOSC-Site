@@ -226,11 +226,18 @@ table {
     .counter-container .counter .count-contain {
       display: flex;
       justify-content: space-around; }
-      .counter-container .counter .count-contain .count-box {
+      .counter-container .counter .count-contain .count-display {
         background-color: #f5f5f5;
+        text-align: center;
         height: 83px;
         width: 31%;
         display: inline-block; }
+        .counter-container .counter .count-contain .count-display p {
+          text-align: center;
+          font-family: 'Monsterrat', Arial, sans-serif;
+          font-size: 60px;
+          height: 100%;
+          padding-top: 15px; }
     .counter-container .counter .day {
       font-weight: bold;
       color: #f5f5f5;
@@ -398,6 +405,41 @@ table {
       .sponsor-page .gray-background ul li {
         margin: 15px auto 15px;
         line-height: 1.5; }
+  .sponsor-page .table-section {
+    display: none; }
+    .sponsor-page .table-section .white-background {
+      display: flex;
+      margin-left: 5%;
+      padding-left: 0; }
+      .sponsor-page .table-section .white-background p {
+        width: 50%;
+        margin-right: 15%; }
+  .sponsor-page .sponsor-table {
+    width: 95%;
+    margin: 0 0 20px 5%; }
+    .sponsor-page .sponsor-table .table-head {
+      width: 20%;
+      margin-right: 5px; }
+    .sponsor-page .sponsor-table td {
+      width: 15%;
+      padding: 5px;
+      text-align: left; }
+  .sponsor-page .mod-white-background {
+    width: 58%;
+    margin: 0 2% 100px 40%; }
+    .sponsor-page .mod-white-background .mont24 {
+      margin-bottom: 20px;
+      line-height: 1.0;
+      letter-spacing: 1.2px; }
+    .sponsor-page .mod-white-background .lora18 {
+      font-weight: bold;
+      margin: 10px 0;
+      line-height: 1.33;
+      letter-spacing: .9px; }
+    .sponsor-page .mod-white-background .lora16 {
+      margin-bottom: 25px;
+      letter-spacing: .8px;
+      line-height: 1.5; }
   .sponsor-page .herohead, .sponsor-page .herohome {
     font-weight: bold;
     line-height: 1.2;
