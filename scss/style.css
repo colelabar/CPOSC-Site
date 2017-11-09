@@ -561,8 +561,10 @@ table {
     .speaker-page .dropDown .yellowArrow {
       font-size: 40px;
       margin-bottom: 5px; }
-    .speaker-page .dropDown .dropdownContent {
-      display: none; }
+  .speaker-page .dropdownContent {
+    display: block; }
+  .speaker-page .none {
+    display: none; }
 
 .footer {
   background-color: #313131;
