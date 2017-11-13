@@ -305,8 +305,7 @@ table {
 
 .gray-background {
   height: auto;
-  width: 92%;
-  padding: .75em;
+  width: auto;
   background-color: #ebebeb;
   color: #101010; }
   .gray-background h3 {
