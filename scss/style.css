@@ -196,14 +196,19 @@ table {
     padding: 30px 0 25px 14px;
     display: flex;
     justify-content: space-between; }
+    .hero header .mont14 {
+      width: 300px;
+      text-align: left;
+      text-decoration: none; }
     .hero header a {
-      width: 350px; }
+      display: block;
+      text-align: center; }
   .hero .nav-button {
     width: 45px;
     height: 35px;
     background-color: transparent;
     padding: 2px;
-    margin: 10px 25px 30px 0;
+    margin: 10px 25px 0 0;
     cursor: pointer; }
     .hero .nav-button .nav-comp {
       width: 30px;
@@ -213,7 +218,7 @@ table {
   .hero .navDrop {
     display: none;
     position: absolute;
-    right: 0;
+    right: 10px;
     padding: 10px;
     background-color: #313131;
     min-width: 200px;
