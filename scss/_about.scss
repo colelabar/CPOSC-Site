@@ -69,6 +69,27 @@
             }
         }
     }
+    .gold-background {
+        height: auto;
+        width: 100%;
+        background-color: #ffae00;
+        color: black;
+        margin-bottom: -3px;
+        .gold-inside {
+            padding: 30px 30px 30px 30px;
+        }
+        h2 {
+            padding: 40px 0 20px 0;
+            font-weight: bold;
+        }
+        .loc-con {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            h3 {
+                font-weight: bold;
+            }
+        }
+    }
     .gray-background {
         .venue {
             padding: 20px 20px 20px 20px;
@@ -103,10 +124,157 @@
                 display: inline-flex;
                 .mont14 {
                     width: 50%;
+                    padding-right: 300px;
                 }
                 .main-nav {
                     flex-direction: right;
                 }
+            }
+        }
+        .gold-background {
+            display: flex;
+        }
+        .gold-inside {
+            width: 60%;
+        }
+        .map-test {
+            width: 100%;
+        }
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .about-page {
+        body {
+            width: auto;
+            height: auto;
+        }
+        .hero {
+            header {
+                .mont14 {
+                    width: 30%;
+                }
+                .main-nav {
+                    padding-right: 0;
+                    padding-left: 250px;
+                }
+            }
+            .herohead {
+                width: 70%;
+            }
+        }
+        .white-background {
+            .venue-inq {
+                display: inline-block;
+                padding: 30px 0 0 80px;
+                h2 {
+                    color: $yellow;
+                    font-weight: bold;
+                    padding-bottom: 10px;
+                }
+                p {
+                    margin-bottom: 0;
+                    line-height: 2.0;
+                    font-weight: bold;
+                }
+            }
+            .ticket-container {
+                position: relative;
+                top: -20px;
+                left: -280px;
+            }
+            .about-conference {}
+            h4 {
+                padding-left: 300px;
+                font-weight: bold;
+            }
+            h5 {
+                padding-left: 300px;
+            }
+            .form {
+                display: flex;
+                padding-left: 300px;
+                h6 {
+                    width: 20%;
+                }
+                .form-field {
+                    width: 80%;
+                }
+                .form-field-end {
+                    width: 80%;
+                }
+            }
+            .button-container {
+                padding-left: 430px;
+            }
+        }
+        .gray-background {
+            .venue {
+                padding: 40px 150px 40px 350px;
+            }
+            .img {
+                width: 80%;
+                padding-left: 200px;
+            }
+            .about-location {
+                padding: 40px 150px 40px 350px;
+            }
+        }
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        .code {
+            width: 35%;
+            padding-left: 40px;
+        }
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .about-page {
+        body {
+            width: auto;
+            height: auto;
+        }
+        .hero {
+            header {
+                .mont14 {
+                    width: 25%;
+                }
+                .main-nav {
+                    padding-left: 850px;
+                }
+            }
+            .herohead {
+                width: 45%;
+            }
+        }
+        .white-background {
+            .ticket-container {
+                left: -575px;
+            }
+            h4 {
+                padding-left: 354px;
+            }
+            h5 {
+                padding-left: 354px;
+            }
+            .form {
+                padding-left: 354px;
+                h6 {
+                    width: 50%;
+                    margin-right: -200px;
+                }
+                .form-field {
+                    width: 40%;
+                    margin-left: -300px;
+                }
+                .form-field-end {
+                    width: 40%;
+                    margin-left: -300px;
+                }
+            }
+            .button-container {
+                padding-left: 465px;
             }
         }
     }
