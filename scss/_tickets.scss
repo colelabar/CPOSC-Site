@@ -20,10 +20,46 @@
       p {
         margin: 20px auto 15px
       }
+      .ticketOrderMain {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100px;
+        height: 50px;
+        border: 1px solid black;
+        .ticketCarrot {
+          font-size: 40px;
+          cursor: pointer;
+        }
+      }
+      .ticketDrop {
+        display: none;
+        text-align: center;
+        width: 100px;
+        border: 1px solid black;
+        .ticketDropCon:hover {
+          background-color: $grey;
+          transition-duration: 1s;
+          cursor: pointer;
+        }
+      }
+      .ticketShow {
+        display: block;
+      }
+      .totalContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 20px;
+        .tickTotal {
+          width: 200px;
+          border: 1px solid black;
+        }
+      }
       .divider-gold {
         height: 2px;
         width: 95%;
-        margin: 0 auto;
+        margin: 10px auto 0;
         background-color: $yellow;
       }
       .button-container {
