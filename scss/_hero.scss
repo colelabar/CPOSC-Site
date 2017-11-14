@@ -10,30 +10,29 @@
         display: flex;
         justify-content: space-between;
         .mont14 {
-          width: 300px;
-          text-align: left;
-          text-decoration: none;
+            width: 300px;
+            text-align: left;
+            text-decoration: none;
         }
         a {
-          display: block;
-          text-align: center;
+            display: block;
+            text-align: center;
         }
     }
-      .nav-button {
+    .nav-button {
         width: 45px;
         height: 35px;
         background-color: transparent;
         padding: 2px;
-        margin: 10px 25px 0 0;
         cursor: pointer;
         .nav-comp {
-          width: 30px;
-          height: 3px;
-          background-color: $white;
-          margin: 7px;
+            width: 30px;
+            height: 3px;
+            background-color: $white;
+            margin: 7px;
         }
-      }
-      .navDrop {
+    }
+    .navDrop {
         display: none;
         position: absolute;
         right: 10px;
@@ -43,10 +42,10 @@
         z-index: 1;
         text-align: center;
         border: 1px solid $white;
-      }
-      .navShow {
+    }
+    .navShow {
         display: block;
-      }
+    }
 
     .line-below {
         width: 100%;

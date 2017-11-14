@@ -1,8 +1,21 @@
 .about-page {
+    width: auto;
+    height: auto;
     .hero {
         height: auto;
+        width: auto;
         a {
             text-decoration: none;
+        }
+        header {
+            display: inline-flex;
+            .mont14 {
+                width: 80%;
+                text-align: left;
+            }
+            .main-nav {
+                width: 20%;
+            }
         }
         .herohead {
             padding-top: 55px;
@@ -13,7 +26,11 @@
     }
     .white-background {
         width: auto;
+        .venue-inq {
+            display: none;
+        }
         .ticket-container {
+            margin-top: 40px;
             h1 {
                 color: $white;
             }
@@ -72,6 +89,25 @@
         .img {
             width: 100%;
             height: auto;
+        }
+    }
+}
+@media only screen and (min-width: 768px) {
+    .about-page {
+        body {
+            width: auto;
+            height: auto;
+        }
+        .hero {
+            header {
+                display: inline-flex;
+                .mont14 {
+                    width: 50%;
+                }
+                .main-nav {
+                    flex-direction: right;
+                }
+            }
         }
     }
 }
