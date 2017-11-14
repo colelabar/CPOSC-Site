@@ -491,10 +491,39 @@ table {
   color: #DF8D21; }
 .ticket-page .white-background p {
   margin: 20px auto 15px; }
+.ticket-page .white-background .ticketOrderMain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black; }
+  .ticket-page .white-background .ticketOrderMain .ticketCarrot {
+    font-size: 40px;
+    cursor: pointer; }
+.ticket-page .white-background .ticketDrop {
+  display: none;
+  text-align: center;
+  width: 100px;
+  border: 1px solid black; }
+  .ticket-page .white-background .ticketDrop .ticketDropCon:hover {
+    background-color: #ebebeb;
+    transition-duration: 1s;
+    cursor: pointer; }
+.ticket-page .white-background .ticketShow {
+  display: block; }
+.ticket-page .white-background .totalContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px; }
+  .ticket-page .white-background .totalContainer .tickTotal {
+    width: 200px;
+    border: 1px solid black; }
 .ticket-page .white-background .divider-gold {
   height: 2px;
   width: 95%;
-  margin: 0 auto;
+  margin: 10px auto 0;
   background-color: #ffae00; }
 .ticket-page .white-background .button-container {
   width: 100%;
@@ -619,6 +648,7 @@ table {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
     color: #ffae00; }
     .speaker-page .dropDown .yellowArrow {
       font-size: 40px;
