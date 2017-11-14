@@ -584,6 +584,22 @@ table {
       padding-left: 148px; }
       .about-page .white-background .button-container .main-button {
         width: 150px; }
+  .about-page .gold-background {
+    height: auto;
+    width: 100%;
+    background-color: #ffae00;
+    color: black;
+    margin-bottom: -3px; }
+    .about-page .gold-background .gold-inside {
+      padding: 30px 30px 30px 30px; }
+    .about-page .gold-background h2 {
+      padding: 40px 0 20px 0;
+      font-weight: bold; }
+    .about-page .gold-background .loc-con {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .about-page .gold-background .loc-con h3 {
+        font-weight: bold; }
   .about-page .gray-background .venue {
     padding: 20px 20px 20px 20px; }
     .about-page .gray-background .venue p {
@@ -606,24 +622,101 @@ table {
   .about-page .hero header {
     display: inline-flex; }
     .about-page .hero header .mont14 {
-      width: 50%; }
+      width: 50%;
+      padding-right: 300px; }
     .about-page .hero header .main-nav {
-      flex-direction: right; } }
-.gold-background {
-  height: auto;
-  width: 100%;
-  background-color: #ffae00;
-  color: black; }
-  .gold-background .mont21 {
-    padding: 75px 143px 20px 20px;
-    line-height: 1.5;
-    font-weight: bolder; }
-  .gold-background .loc-con {
-    padding: 1em;
-    line-height: 1.5; }
-    .gold-background .loc-con h3 {
+      flex-direction: right; }
+  .about-page .gold-background {
+    display: flex; }
+  .about-page .gold-inside {
+    width: 60%; }
+  .about-page .map-test {
+    width: 100%; } }
+@media only screen and (min-width: 1000px) {
+  .about-page body {
+    width: auto;
+    height: auto; }
+  .about-page .hero header .mont14 {
+    width: 30%; }
+  .about-page .hero header .main-nav {
+    padding-right: 0;
+    padding-left: 250px; }
+  .about-page .hero .herohead, .about-page .hero .herohome {
+    width: 70%; }
+  .about-page .white-background .venue-inq {
+    display: inline-block;
+    padding: 30px 0 0 80px; }
+    .about-page .white-background .venue-inq h2 {
+      color: #ffae00;
+      font-weight: bold;
+      padding-bottom: 10px; }
+    .about-page .white-background .venue-inq p {
+      margin-bottom: 0;
+      line-height: 2.0;
       font-weight: bold; }
+  .about-page .white-background .ticket-container, .about-page .white-background .sponsor-page .sponsor-ticket, .sponsor-page .about-page .white-background .sponsor-ticket, .about-page .white-background .speaker-page .speaker-ticket, .speaker-page .about-page .white-background .speaker-ticket {
+    position: relative;
+    top: -20px;
+    left: -280px; }
+  .about-page .white-background h4 {
+    padding-left: 300px;
+    font-weight: bold; }
+  .about-page .white-background h5 {
+    padding-left: 300px; }
+  .about-page .white-background .form {
+    display: flex;
+    padding-left: 300px; }
+    .about-page .white-background .form h6 {
+      width: 20%; }
+    .about-page .white-background .form .form-field {
+      width: 80%; }
+    .about-page .white-background .form .form-field-end {
+      width: 80%; }
+  .about-page .white-background .button-container {
+    padding-left: 430px; }
+  .about-page .gray-background .venue {
+    padding: 40px 150px 40px 350px; }
+  .about-page .gray-background .img {
+    width: 80%;
+    padding-left: 200px; }
+  .about-page .gray-background .about-location {
+    padding: 40px 150px 40px 350px; }
 
+  .footer {
+    display: flex;
+    justify-content: space-between; }
+    .footer .code {
+      width: 35%;
+      padding-left: 40px; } }
+@media only screen and (max-width: 1600px) {
+  .about-page body {
+    width: auto;
+    height: auto; }
+  .about-page .hero header .mont14 {
+    width: 25%; }
+  .about-page .hero header .main-nav {
+    padding-left: 850px; }
+  .about-page .hero .herohead, .about-page .hero .herohome {
+    width: 45%; }
+  .about-page .white-background .ticket-container, .about-page .white-background .sponsor-page .sponsor-ticket, .sponsor-page .about-page .white-background .sponsor-ticket, .about-page .white-background .speaker-page .speaker-ticket, .speaker-page .about-page .white-background .speaker-ticket {
+    left: -575px; }
+  .about-page .white-background h4 {
+    padding-left: 354px; }
+  .about-page .white-background h5 {
+    padding-left: 354px; }
+  .about-page .white-background .form {
+    padding-left: 354px; }
+    .about-page .white-background .form h6 {
+      width: 50%;
+      margin-right: -200px; }
+    .about-page .white-background .form .form-field {
+      width: 40%;
+      margin-left: -300px; }
+    .about-page .white-background .form .form-field-end {
+      width: 40%;
+      margin-left: -300px; }
+  .about-page .white-background .button-container {
+    padding-left: 465px; } }
 .speaker-page {
   width: 100%;
   height: auto;
