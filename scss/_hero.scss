@@ -9,8 +9,14 @@
         padding: 30px 0 25px 14px;
         display: flex;
         justify-content: space-between;
+        .mont14 {
+          width: 300px;
+          text-align: left;
+          text-decoration: none;
+        }
         a {
-          width: 350px;
+          display: block;
+          text-align: center;
         }
     }
       .nav-button {
@@ -18,7 +24,7 @@
         height: 35px;
         background-color: transparent;
         padding: 2px;
-        margin: 10px 25px 30px 0;
+        margin: 10px 25px 0 0;
         cursor: pointer;
         .nav-comp {
           width: 30px;
@@ -30,7 +36,7 @@
       .navDrop {
         display: none;
         position: absolute;
-        right: 0;
+        right: 10px;
         padding: 10px;
         background-color: $gunmetal;
         min-width: 200px;

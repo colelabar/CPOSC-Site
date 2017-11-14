@@ -1,4 +1,4 @@
 function nav() {
-  var navIgate = document.getElementsByClassName('navDrop')[0];
-      navIgate.classList.toggle('navShow');
+  var navigate = document.getElementsByClassName('navDrop');
+      navigate[0].classList.toggle('navShow');
     }
