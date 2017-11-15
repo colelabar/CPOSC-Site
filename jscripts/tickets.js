@@ -3,7 +3,13 @@ function tickets(x) {
       tick[x].classList.toggle('ticketShow');
     }
 
-function ticketsCalc(y,w,x,v) {
+var valueDisplay = document.getElementsByClassName('ticketValueDisp');
+function valDisplay(vari, val) {
+  valueDisplay[vari].innerHTML = val;
+}
+
+
+function ticketsCalc(h,y,w,x,v,s) {
   var ticketTotal = document.getElementsByClassName('tickTotal')[0];
   var answer = (y*42);
   var open = (w*0);
@@ -11,4 +17,6 @@ function ticketsCalc(y,w,x,v) {
   var high = (v*0);
   var totes = (answer + open + college + high);
   ticketTotal.innerHTML = totes;
+  tickets(h);
+  valDisplay(h,s);
 }
