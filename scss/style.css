@@ -663,7 +663,43 @@ table {
   .ticket-page .white-background .button-container .main-button {
     margin: 20px auto;
     display: block; }
+.ticket-page .gold-background {
+  height: auto;
+  width: 100%;
+  background-color: #ffae00;
+  color: black;
+  margin-bottom: -3px; }
+  .ticket-page .gold-background .gold-inside {
+    padding: 30px 30px 30px 30px; }
+  .ticket-page .gold-background h2 {
+    padding: 40px 0 20px 0;
+    font-weight: bold; }
+  .ticket-page .gold-background .loc-con {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .ticket-page .gold-background .loc-con h3 {
+      font-weight: bold; }
 
+@media only screen and (min-width: 768px) {
+  .ticket-page .hero header a {
+    width: 35%; }
+  .ticket-page .hero .herohead, .ticket-page .hero .herohome {
+    width: 60%; }
+  .ticket-page .gold-background {
+    display: flex; }
+    .ticket-page .gold-background .gold-inside {
+      width: 60%; }
+    .ticket-page .gold-background .map-test {
+      width: 100%; } }
+@media only screen and (min-width: 1000px) {
+  .ticket-page .hero header a {
+    width: 25%; }
+  .ticket-page .hero .main-nav {
+    padding-right: 20px; }
+  .ticket-page .hero .herohead, .ticket-page .hero .herohome {
+    width: 45%; }
+  .ticket-page .white-background {
+    padding-left: 40px; } }
 .about-page {
   width: auto;
   height: auto; }
