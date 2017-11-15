@@ -1,77 +1,141 @@
 .ticket-page {
-  .hero {
-    .herohead {
-      padding-top: 25px;
-      padding-right: 50px;
-      line-height: 1.5;
-      letter-spacing: 1.2px;
-    }
+    .hero {
+        .herohead {
+            padding-top: 25px;
+            padding-right: 50px;
+            line-height: 1.5;
+            letter-spacing: 1.2px;
+        }
     }
     .white-background {
-      h3 {
-        font-weight: 500;
-        letter-spacing: 1px;
-        margin-top: 15px;
-        padding-right: 5px;
-      }
-      h5 {
-        color: $goldenrod;
-      }
-      p {
-        margin: 20px auto 15px
-      }
-      .ticketOrderMain {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 100px;
-        height: 50px;
-        border: 1px solid black;
-        .ticketCarrot {
-          font-size: 40px;
-          cursor: pointer;
+        h3 {
+            font-weight: 500;
+            letter-spacing: 1px;
+            margin-top: 15px;
+            padding-right: 5px;
         }
-      }
-      .ticketDrop {
-        display: none;
-        text-align: center;
-        width: 100px;
-        border: 1px solid black;
-        .ticketDropCon:hover {
-          background-color: $grey;
-          transition-duration: 1s;
-          cursor: pointer;
+        h5 {
+            color: $goldenrod;
         }
-      }
-      .ticketShow {
-        display: block;
-      }
-      .totalContainer {
-        display: flex;
-        justify-content: space-between;
-        width: 90%;
-        margin: 20px;
-        .tickTotal {
-          width: 200px;
-          border: 1px solid black;
-          font-size: 24px;
-          text-align: center;
-          padding-top: 18px;
+        p {
+            margin: 20px auto 15px
         }
-      }
-      .divider-gold {
-        height: 2px;
-        width: 95%;
-        margin: 10px auto 0;
-        background-color: $yellow;
-      }
-      .button-container {
-        width: 100%;
-        margin: 0 auto;
-        .main-button {
-          margin: 20px auto;
-          display: block;
+        .ticketOrderMain {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100px;
+            height: 50px;
+            border: 1px solid black;
+            .ticketCarrot {
+                font-size: 40px;
+                cursor: pointer;
+            }
         }
-      }
+        .ticketDrop {
+            display: none;
+            text-align: center;
+            width: 100px;
+            border: 1px solid black;
+            .ticketDropCon:hover {
+                background-color: $grey;
+                transition-duration: 1s;
+                cursor: pointer;
+            }
+        }
+        .ticketShow {
+            display: block;
+        }
+        .totalContainer {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: 20px;
+            .tickTotal {
+                width: 200px;
+                border: 1px solid black;
+                font-size: 24px;
+                text-align: center;
+                padding-top: 18px;
+            }
+        }
+        .divider-gold {
+            height: 2px;
+            width: 95%;
+            margin: 10px auto 0;
+            background-color: $yellow;
+        }
+        .button-container {
+            width: 100%;
+            margin: 0 auto;
+            .main-button {
+                margin: 20px auto;
+                display: block;
+            }
+        }
     }
-  }
+    .gold-background {
+        height: auto;
+        width: 100%;
+        background-color: #ffae00;
+        color: black;
+        margin-bottom: -3px;
+        .gold-inside {
+            padding: 30px 30px 30px 30px;
+        }
+        h2 {
+            padding: 40px 0 20px 0;
+            font-weight: bold;
+        }
+        .loc-con {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            h3 {
+                font-weight: bold;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px) {
+    .ticket-page {
+        .hero {
+            header {
+                a {
+                    width: 35%;
+                }
+            }
+            .herohead {
+                width: 60%;
+            }
+        }
+        .gold-background {
+            display: flex;
+            .gold-inside {
+                width: 60%;
+            }
+            .map-test {
+                width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .ticket-page {
+        .hero {
+            header {
+                a {
+                    width: 25%;
+                }
+            }
+            .main-nav {
+                padding-right: 20px;
+            }
+            .herohead {
+                width: 45%;
+            }
+        }
+        .white-background {
+            padding-left: 40px;
+        }
+    }
+}
