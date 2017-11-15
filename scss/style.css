@@ -363,6 +363,23 @@ table {
   .gray-background .spacer {
     padding-bottom: 40px; }
 
+.gold-background {
+  height: auto;
+  width: 100%;
+  background-color: #ffae00;
+  color: black;
+  margin-bottom: -3px; }
+  .gold-background .gold-inside {
+    padding: 30px 30px 30px 30px; }
+  .gold-background h2 {
+    padding: 40px 0 20px 0;
+    font-weight: bold; }
+  .gold-background .loc-con {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .gold-background .loc-con h3 {
+      font-weight: bold; }
+
 .map {
   height: 400px;
   width: 100%; }
@@ -903,8 +920,28 @@ table {
   .speaker-page .white-background h3 {
     margin-bottom: 5px;
     font-size: 18px; }
-  .speaker-page .gray-background h3 {
+  .speaker-page .white-background h4 {
     padding-top: 0; }
+  .speaker-page .gray-background {
+    padding: 10px 25px 10px 15px; }
+    .speaker-page .gray-background h3 {
+      padding-top: 0; }
+  .speaker-page .gold-background {
+    height: auto;
+    width: 100%;
+    background-color: #ffae00;
+    color: black;
+    margin-bottom: -3px; }
+    .speaker-page .gold-background .gold-inside {
+      padding: 30px 30px 30px 30px; }
+    .speaker-page .gold-background h2 {
+      padding: 40px 0 20px 0;
+      font-weight: bold; }
+    .speaker-page .gold-background .loc-con {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .speaker-page .gold-background .loc-con h3 {
+        font-weight: bold; }
   .speaker-page .dropDown {
     display: flex;
     align-items: center;
@@ -914,11 +951,34 @@ table {
     .speaker-page .dropDown .yellowArrow {
       font-size: 40px;
       margin-bottom: 5px; }
+  .speaker-page .dropDownGray {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #ffae00; }
+    .speaker-page .dropDownGray .yellowArrow {
+      font-size: 40px;
+      margin-bottom: 5px;
+      padding-left: 205px; }
   .speaker-page .dropdownContent {
     display: block; }
   .speaker-page .none {
     display: none; }
 
+@media only screen and (min-width: 768px) {
+  .speaker-page header a {
+    width: 15%; }
+  .speaker-page .gray-background .dropDownGray .yellowArrow {
+    font-size: 40px;
+    margin-bottom: 5px;
+    padding-right: 25px; }
+  .speaker-page .gold-background {
+    display: flex; }
+    .speaker-page .gold-background .gold-inside {
+      width: 60%; }
+    .speaker-page .gold-background .map-test {
+      width: 100%; } }
 .footer {
   background-color: #313131;
   color: #ebebeb; }

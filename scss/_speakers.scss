@@ -22,11 +22,36 @@
             margin-bottom: 5px;
             font-size: 18px;
         }
+        h4 {
+            padding-top: 0;
+        }
     }
     .gray-background {
-      h3 {
-        padding-top: 0;
-      }
+        padding: 10px 25px 10px 15px;
+        h3 {
+            padding-top: 0;
+        }
+    }
+    .gold-background {
+        height: auto;
+        width: 100%;
+        background-color: #ffae00;
+        color: black;
+        margin-bottom: -3px;
+        .gold-inside {
+            padding: 30px 30px 30px 30px;
+        }
+        h2 {
+            padding: 40px 0 20px 0;
+            font-weight: bold;
+        }
+        .loc-con {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            h3 {
+                font-weight: bold;
+            }
+        }
     }
     .dropDown {
         display: flex;
@@ -39,10 +64,49 @@
             margin-bottom: 5px;
         }
     }
+    .dropDownGray {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        color: $yellow;
+        .yellowArrow {
+            font-size: 40px;
+            margin-bottom: 5px;
+            padding-left: 205px;
+        }
+    }
     .dropdownContent {
         display: block;
     }
     .none {
-      display: none;
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .speaker-page {
+        header {
+            a {
+                width: 15%;
+            }
+        }
+        .gray-background {
+            .dropDownGray {
+                .yellowArrow {
+                    font-size: 40px;
+                    margin-bottom: 5px;
+                    padding-right: 25px;
+                }
+            }
+        }
+        .gold-background {
+            display: flex;
+            .gold-inside {
+                width: 60%;
+            }
+            .map-test {
+                width: 100%;
+            }
+        }
     }
 }
