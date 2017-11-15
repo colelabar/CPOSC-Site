@@ -334,6 +334,18 @@ table {
       letter-spacing: .9px;
       padding: 0 auto;
       text-decoration: none; }
+  .white-background .main-button-hidden {
+    background-color: #ffae00;
+    width: 250px;
+    height: 60px;
+    margin: 15px auto 65px;
+    text-align: center; }
+    .white-background .main-button-hidden a {
+      color: #f5f5f5;
+      font-weight: bold;
+      letter-spacing: .9px;
+      padding: 0 auto;
+      text-decoration: none; }
 
 .gray-background {
   height: auto;
@@ -424,6 +436,10 @@ table {
     margin-bottom: 25px; }
     .sponsor-page .white-background p strong {
       font-weight: bold; }
+  .sponsor-page .white-background .main-button-hidden {
+    display: none; }
+  .sponsor-page .sponsor-about {
+    display: none; }
   .sponsor-page .gray-background {
     width: auto; }
     .sponsor-page .gray-background .mont24 {
@@ -436,6 +452,22 @@ table {
       .sponsor-page .gray-background ul li {
         margin: 15px auto 15px;
         line-height: 1.5; }
+  .sponsor-page .gold-background {
+    height: auto;
+    width: 100%;
+    background-color: #ffae00;
+    color: black;
+    margin-bottom: -3px; }
+    .sponsor-page .gold-background .gold-inside {
+      padding: 30px 30px 30px 30px; }
+    .sponsor-page .gold-background h2 {
+      padding: 40px 0 20px 0;
+      font-weight: bold; }
+    .sponsor-page .gold-background .loc-con {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .sponsor-page .gold-background .loc-con h3 {
+        font-weight: bold; }
   .sponsor-page .table-section {
     display: none; }
     .sponsor-page .table-section .white-background {
@@ -477,6 +509,103 @@ table {
     letter-spacing: 1.2px;
     text-align: left; }
 
+@media only screen and (min-width: 768px) {
+  .sponsor-page .hero .herohead, .sponsor-page .hero .herohome {
+    width: 70%; }
+  .sponsor-page header .mont14 {
+    width: 35%; }
+  .sponsor-page .white-background h2 {
+    padding-left: 30px;
+    font-weight: bold; }
+  .sponsor-page .white-background h3 {
+    padding-left: 30px; }
+  .sponsor-page .white-background p {
+    padding: 0 50px 0 30px; }
+  .sponsor-page .white-background .main-button {
+    margin-left: 30px; }
+  .sponsor-page .gray-background {
+    padding: 20px 40px 20px 40px; }
+    .sponsor-page .gray-background div ul {
+      padding: 0 20px 0 20px; }
+      .sponsor-page .gray-background div ul li {
+        list-style-position: inside; }
+  .sponsor-page .gold-background {
+    display: flex; }
+    .sponsor-page .gold-background .gold-inside {
+      width: 50%; }
+    .sponsor-page .gold-background .map-test {
+      width: 100%; } }
+@media only screen and (min-width: 1000px) {
+  .sponsor-page * {
+    box-sizing: border-box; }
+  .sponsor-page .col {
+    height: auto;
+    display: inline-block;
+    width: 8%; }
+  .sponsor-page .col-1 {
+    width: 16%; }
+  .sponsor-page .col-2 {
+    width: 24%; }
+  .sponsor-page .col-3 {
+    width: 32%; }
+  .sponsor-page .col-4 {
+    width: 40%; }
+  .sponsor-page .col-5 {
+    width: 48%; }
+  .sponsor-page .col-6 {
+    width: 56%; }
+  .sponsor-page .col-7 {
+    width: 64%; }
+  .sponsor-page .col-8 {
+    width: 72%; }
+  .sponsor-page .col-9 {
+    width: 80%; }
+  .sponsor-page .col-10 {
+    width: 88%; }
+  .sponsor-page .col-11 {
+    width: 96%; }
+  .sponsor-page [class*="col-"] {
+    display: inline-block;
+    float: left;
+    padding-bottom: 10px; }
+  .sponsor-page .row::after {
+    content: "";
+    display: block; }
+  .sponsor-page header .mont14 {
+    width: 25%; }
+  .sponsor-page .hero .herohead, .sponsor-page .hero .herohome {
+    width: 55%; }
+  .sponsor-page .white-background {
+    display: inline-block; }
+    .sponsor-page .white-background .sponsor-about {
+      display: block;
+      line-height: 2.0;
+      padding: 40px; }
+      .sponsor-page .white-background .sponsor-about h5 {
+        color: #ffae00;
+        font-weight: bold; }
+      .sponsor-page .white-background .sponsor-about h6 {
+        color: #313131;
+        font-weight: bold; }
+    .sponsor-page .white-background .sponsor-ticket {
+      margin-left: 20px;
+      width: 22%; }
+    .sponsor-page .white-background .main-button-hidden {
+      display: block;
+      position: relative;
+      left: 350px;
+      padding: 20px 5px 20px 5px; }
+    .sponsor-page .white-background .sponsor-test {
+      position: relative;
+      top: -100px; }
+    .sponsor-page .white-background .download {
+      display: none; }
+    .sponsor-page .white-background .mb-hide {
+      display: none; }
+  .sponsor-page .gray-background div {
+    padding-left: 250px; }
+  .sponsor-page .table-section {
+    display: block; } }
 .ticket-page .hero .herohead, .ticket-page .hero .herohome {
   padding-top: 25px;
   padding-right: 50px;
