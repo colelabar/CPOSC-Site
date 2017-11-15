@@ -135,7 +135,27 @@
         padding-bottom: 40px;
     }
 }
-
+.gold-background {
+    height: auto;
+    width: 100%;
+    background-color: #ffae00;
+    color: black;
+    margin-bottom: -3px;
+    .gold-inside {
+        padding: 30px 30px 30px 30px;
+    }
+    h2 {
+        padding: 40px 0 20px 0;
+        font-weight: bold;
+    }
+    .loc-con {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        h3 {
+            font-weight: bold;
+        }
+    }
+}
 .map {
     height: 400px;
     width: 100%;
